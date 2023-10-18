@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Rainbow Paper 400.otf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("../fonts/NewtonHowardFont-Regular 400.otf");
+}
+@font-face {
+    font-family: myThridFont;
+    src: url("../fonts/Zelda_Demo.ttf");
+}
+@font-face {
+    font-family: myForthFont;
+    src: url("../fonts/Wolves Vs Monster Slant DEMO 400.otf");
+}
+@font-face {
+    font-family: myFFont;
+    src: url("../fonts/Macondo-Regular.ttf");
+}
+@font-face {
+    font-family: mySFont;
+    src: url("../fonts/SpecialElite-Regular.ttf");
+}
+@font-face {
+    font-family: myseFont;
+    src: url("../fonts/Fabrica.ttf");
+}
+body{
+    font-family:montserrat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/test2.jpg");
+    background-size:cover;
+    height: calc(100vh-80px);
+    overflow-x: hidden;
+}
+section.main{
+    position: absolute;
+    align-content: center;
+    background-image: url("../img/test3.jpg");
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    min-height: 250px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+label.que{
+    font-family: mySecondFont;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+form.fo{
+    
+    text-align: center;
+    padding: -20px;
+    color: red;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    height: auto;
+}
+input{
+    position: relative;
+    top: 60px;
+    height: 40px;
+    font-size: 16px;
+    background: black;
+    border-color: red;
+    color: white;
+    border-radius: 15px;
+}
+::placeholder{
+    font-family: mySFont;
+    color: grey;
+    opacity: 80%;
+}
+
+:-ms-input-placeholder { 
+    font-family: mySFont;
+    color: grey;
+    opacity: 80%;
+}
+
+::-ms-input-placeholder {
+    font-family: mySFont;
+    color: grey;
+    opacity: 80%;
+}
+button{
+    position: relative;
+    top: 90px;
+    font-family: myFFont;
+    background: #333333;
+    border-width: 4px;
+    border-color: red;
+    color: greenyellow;
+    border-radius: 20px;
+    font-weight: 600;
+    height: 45px;
+    width: 85px;
+    font-size: 16px;
+}
+button:hover{
+    height: 50px;
+    width: 90px;
+    font-size: 18px;
+}

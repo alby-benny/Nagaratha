@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Rainbow Paper 400.otf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("../fonts/NewtonHowardFont-Regular 400.otf");
+}
+@font-face {
+    font-family: myThridFont;
+    src: url("../fonts/Zelda_Demo.ttf");
+}
+@font-face {
+    font-family: myForthFont;
+    src: url("../fonts/Wolves Vs Monster Slant DEMO 400.otf");
+}
+@font-face {
+    font-family: myFFont;
+    src: url("../fonts/Macondo-Regular.ttf");
+}
+@font-face {
+    font-family: mySFont;
+    src: url("../fonts/SpecialElite-Regular.ttf");
+}
+@font-face {
+    font-family: myseFont;
+    src: url("../fonts/Fabrica.ttf");
+}
+body{
+    font-family:montserrat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/test2.jpg");
+    background-size:cover;
+    height: calc(100vh-80px);
+    overflow-x: hidden;
+}
+nav{
+    background-image: url("../img/test.jpg");
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    font-family: mySecondFont;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+section.main{
+    position: absolute;
+    align-content: center;
+    background-image: url("../img/test3.jpg");
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    min-height: 250px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+label.que{
+    font-family: myThridFont;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+h2{
+    color:dodgerblue;
+    font-family: myfirstFont;
+    position: relative;
+    -webkit-text-stroke:0.8px black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: dotted;
+}
+
+form.fo{
+    overflow-x: hidden;
+    text-align: center;
+    padding: -20px;
+    color: red;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+}
+input{
+    height: 40px;
+    font-size: 16px;
+    background: black;
+    border-color: red;
+    color: white;
+    border-radius: 15px;
+}
+::placeholder{
+    font-family: mySFont;
+    color: grey;
+    opacity: 80%;
+}
+
+:-ms-input-placeholder { 
+    font-family: mySFont;
+    color: grey;
+    opacity: 80%;
+}
+
+::-ms-input-placeholder {
+    font-family: mySFont;
+    color: grey;
+    opacity: 80%;
+}
+button{
+    font-family: myFFont;
+    background: #333333;
+    border-width: 4px;
+    border-color: red;
+    color: greenyellow;
+    border-radius: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 80px;
+    font-size: 13px;
+}
+button:hover{
+    height: 45px;
+    width: 85px;
+    font-size: 16px;
+}
+label.wans{
+    font-family: myForthFont;
+    position: relative;
+    top: 25px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+
+.vegeta{
+    width: 500px;
+}
+
+a{
+    font-family: mySeFont;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+label.Time{
+    font-family: mySFont;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+u{
+    color:dodgerblue;
+    font-family: myfirstFont;
+    position: relative;
+    -webkit-text-stroke:0.8px black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: dotted;
+}
